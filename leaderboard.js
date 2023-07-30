@@ -3,7 +3,7 @@ const r = require('rethinkdb');
 
 // RethinkDB connection configuration
 const host = 'rethink-7rs9.internal'; // Replace with your RethinkDB host address
-const port = 28015;       // Replace with your custom RethinkDB port
+const port = null;       // Replace with your custom RethinkDB port
 const dbName = 'mmorpg';  // Replace with your database name
 
 // Function to get the leaderboard data
